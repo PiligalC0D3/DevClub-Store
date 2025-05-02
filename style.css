@@ -70,7 +70,7 @@ header nav ul li:hover::after{
     overflow: hidden;
 }
 
-.container::before {
+.container::before {  /*Efeito de luz de fondo*/
     content: "";
     position: absolute;
     width: 500px;
@@ -86,7 +86,7 @@ header nav ul li:hover::after{
     
 }
 
-@keyframes pulse {
+@keyframes pulse { /*Efeito de luz de fondo*/
     0% {
         opacity: 0.5;
         transform: translate(-50%, -50%) scale(0.8);
