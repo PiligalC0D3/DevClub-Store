@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
     <title>DevClub Store</title>
 </head>
 
@@ -12,9 +17,11 @@
     <header>
         <div class="logo">DevClub Store</div>
         <nav>
-            <li>home</li>
-            <li>Produtos</li>
-            <li>contatos</li>
+             <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contatos</li>
+            </ul>
         </nav>
     </header>
 
@@ -28,40 +35,73 @@
 
         <div class="list">
             <div class="item">
-                <div class="product-img"> 
+                <div class="product-img">
                     <img src="img/apple-watch.png" alt="Aple Watch">
                 </div>
                 <div class="content">
                     <p class="product-tag">Novo Lançamento</p>
                     <p class="product-name">Apple Watch Series 10</p>
-                    <p class="description">O Apple Watch é um smartwatch vestível que permite aos usuários realizar uma variedade de tarefas, incluindo fazer chamadas telefônicas, enviar mensagens de texto e ler e-mails</p>
+                    <p class="description">O Apple Watch é um smartwatch vestível que permite aos usuários realizar uma
+                        variedade de tarefas, incluindo fazer chamadas telefônicas, enviar mensagens de texto e ler
+                        e-mails</p>
                     <button class="btn">Saiba Mais</button>
+                </div>
+
+                <div class="item">
+                    <div class="product-img">
+                        <img src="img/air-pods.png" alt="Air Pods">
+                    </div>
+                    <div class="content">
+                        <p class="product-tag">Novo Lançamento</p>
+                        <p class="product-name">Apple Watch Series 10</p>
+                        <p class="description">Os AirPods Max oferecem áudio de alta-fidelidade com riqueza de detalhes
+                            para uma experiência sem igual.</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+
+                </div>
+                <div class="item">
+                    <div class="product-img">
+                        <img src="img/vision-pro.png" alt="vision-pro">
+                    </div>
+                    <div class="content">
+                        <p class="product-tag">Novo Lançamento</p>
+                        <p class="product-name">Vision Pro</p>
+                        <p class="description">O Apple Vision Pro é um computador espacial que combina conteúdo digital
+                            e apps no seu espaço físico, permitindo navegar através dos olhos, mãos e voz.</p>
+                        <button class="btn">Saiba Mais</button>
+                    </div>
+                </div>
+
             </div>
 
-            <div class="item">
-                <div class="product-img"> 
-                    <img src="img/air-pods.png" alt="Air Pods">
-                </div>
-                <div class="content">
-                    <p class="product-tag">Novo Lançamento</p>
-                    <p class="product-name">Apple Watch Series 10</p>
-                    <p class="description">Os AirPods Max oferecem áudio de alta-fidelidade com riqueza de detalhes para uma experiência sem igual.</p>
-                    <button class="btn">Saiba Mais</button>
+            <div class="arrows">
+                <button class="arrow-btn" id="prev">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-caret-left" viewBox="0 0 16 16">
+                        <path
+                            d="M10 12.796V3.204L4.519 8zm-.659.753-5.48-4.796a1 1 0 0 1 0-1.506l5.48-4.796A1 1 0 0 1 11 3.204v9.592a1 1 0 0 1-1.659.753" />
+                    </svg>
+                </button>
+                <button class="arrow-btn" id="next">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-caret-right" viewBox="0 0 16 16">
+                        <path
+                            d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753" />
+                    </svg>
+                </button>
             </div>
 
-            </div>
-            <div class="item">
-                <div class="product-img"> 
-                    <img src="img/vision-pro.png" alt="vision-pro">
+            <div class="indicators">
+                <div class="numbers">01</div>
+                <div class="dots">
+                    <div class="dot active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
                 </div>
-                <div class="content">
-                    <p class="product-tag">Novo Lançamento</p>
-                    <p class="product-name">Vision Pro</p>
-                    <p class="description">O Apple Vision Pro é um computador espacial que combina conteúdo digital e apps no seu espaço físico, permitindo navegar através dos olhos, mãos e voz.</p>
-                    <button class="btn">Saiba Mais</button>
+
             </div>
-            </div>
-        </div>
+
     </main>
 
 </body>
