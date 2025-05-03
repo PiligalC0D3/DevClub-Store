@@ -96,3 +96,42 @@ header nav ul li:hover::after{
         transform: translate(-50%, -50%) scale(1.5);
     }
 }
+
+.list {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.item {
+    position: absolute;
+    inset: 0;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.active {
+    opacity: 1;
+}
+
+.product-img {
+    width: 45%;
+    height: 100%;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+}
+
+.product-img img {
+    max-width: 80%;
+    max-height: 60%;
+    object-fit: cover;
+    border-radius: 20px;
+    filter: box-shadow: 0 0 20px rgba(0, 247, 255, 0.5);
+    
+}
