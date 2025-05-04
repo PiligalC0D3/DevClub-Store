@@ -33,20 +33,25 @@ function update (direction) {
          
     if (active < 0) {
         active = total - 1
-        
+
     }   
 
 } 
 
     items[active].classList.add("active")
     dots[active].classList.add("active")
+
     numberIndicator.innerHTML = `${active + 1} / ${total}`
     list.scrollTo({
         left: items[active].offsetLeft - 100,
         behavior: "smooth"
     })
+
+    clearInterval(timer)
+    timer = setInterval(() => {
+        update (1)
+    }, 6000);
    
-    
 }
 
 

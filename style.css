@@ -107,33 +107,50 @@ header nav ul li:hover::after{
 .item {
     position: absolute;
     inset: 0;
-    display: none;  
+    display: flex;  
     justify-content: center;
     align-items: center;
     opacity: 0;
-    transition: opacity 0.5s ease-in-out;
+    
+/* ANIMACAO*/
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+    transform: translateX(100vw);
 }
 
 .item.active{
   display: flex;
   opacity: 1;
+  transform: translateX(0);
 }
 
 .product-img {
-    width: 45%;
+    max-width: 45%;
     height: 100%;
     display: flex;  
     justify-content: center;
     align-items: center;
     position: relative;
     z-index: 2;
+
 }
+
+
 
 .product-img img {
     max-width: 80%;
     max-height: 60%;
     filter: drop-shadow( 0 0 30px rgba(0, 247, 255, 0.5));
+    /*ANIMACAO*/
+    transform: translateX(400px);
+    opacity: 1;
+    transition: transform 0.7s ease, opacity 0.7s ease;
+    transition-delay: 0.6s;
     
+}
+
+.active .product-img img{
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .content{
@@ -145,6 +162,8 @@ header nav ul li:hover::after{
     z-index: 2;
     flex-direction: column;
 }
+
+
 
 .product-tag{
     font-size: 1.2rem;
@@ -162,7 +181,19 @@ header nav ul li:hover::after{
     font-family: "Orbitron", sans-serif;
     line-height: 1.1;
     margin: 20px;
-}
+       /*ANIMACAO*/
+       transform: translateX(400px);
+       opacity: 1;
+       transition: transform 0.8s ease, opacity 0.8s ease;
+       transition-delay: 0.6s;
+       
+   }
+   
+   .active .product-name {
+     transform: translateX(0);
+     opacity: 1;
+   }
+    
 
 .description{
     font-size: 1.2rem;
@@ -171,6 +202,17 @@ header nav ul li:hover::after{
     line-height: 1.5;
     margin-bottom: 30px;
     max-width: 600px;
+   /*ANIMACAO*/
+   transform: translateX(400px);
+   opacity: 1;
+   transition: transform 0.9s ease, opacity 0.9s ease;
+   transition-delay: 0.9s;
+   
+}
+
+.active .description{
+ transform: translateX(0);
+ opacity: 1;
 }
 
 .btn{
@@ -185,15 +227,24 @@ header nav ul li:hover::after{
     text-decoration: none;
     transition: all 0.3s ease-in-out;
     cursor: pointer;
-   
+
     -webkit-animation: jello-horizontal 0.9s both;
-  animation: jello-horizontal 0.9s both;
-  border: 2px solid #1a446e;
-  outline: none;
-  color: #2b6cad;
+    animation: jello-horizontal 0.9s both;
+    border: 2px solid #1a446e;
+    outline: none;
+    color: #2b6cad;
+
+    }
+
+
+    .active .btn{
+    transform: translateX(0);
+    opacity: 1;
+    animation: squeeze3124 0.9s both;
+    
+    }
+      
   
-   
-}
 
 button:hover {
     background: #1c9fa8;
@@ -270,6 +321,7 @@ button:hover {
     color: #1f1f97;
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
     
   }
 
