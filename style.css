@@ -25,6 +25,7 @@ header {
     
 }
 
+
 .logo {
     font-family: "Orbitron", sans-serif;
     font-size: 2rem;
@@ -458,14 +459,10 @@ button:hover {
 
   .logo {
     font-size: 20px;
+
+    
   }
 
-  ul{
-    font-size: 10px;
-    margin-top: -44px;
-    margin-left: 20px;
-    display: flex;
-  }
 
   .product-tag{
     font-size: 10px;
@@ -477,5 +474,7 @@ button:hover {
     letter-spacing: 2px;
     margin-bottom: 10px;;
   }
+
+  
 
   
