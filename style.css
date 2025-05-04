@@ -107,14 +107,16 @@ header nav ul li:hover::after{
 .item {
     position: absolute;
     inset: 0;
-    display: flex;  
+    display: none;  
     justify-content: center;
     align-items: center;
     opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
-.active {
-    opacity: 1;
+.item.active{
+  display: flex;
+  opacity: 1;
 }
 
 .product-img {
