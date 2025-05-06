@@ -428,7 +428,7 @@ button:hover {
  @media screen and (max-width: 768px) {
     header {
         padding: 20px 30px;
-        display:contents;
+        display:block;
     }
 
     .container {
@@ -446,15 +446,15 @@ button:hover {
     }
 
     .product-name {
-        font-size: 2rem;
+        font-size: 17px;
     }
 
     .description {
-        font-size: 0.36rem;
+        font-size: 10px;
     }
 
     .btn {
-        font-size: 0.9rem;
+        font-size: 7px;
     }
   
  }
