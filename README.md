@@ -1,6 +1,6 @@
 # 🚀 Animated Responsive Landing Page
 
-Este projeto é uma **landing page moderna** desenvolvida com **HTML5**, **CSS3** e **JavaScript**, com foco em **responsividade**, **animações dinâmicas** e **experiência do usuário fluida**.
+Este projeto é uma **landing page moderna** desenvolvido com **HTML5**, **CSS3** e **JavaScript**, com foco em **responsividade**, **animações dinâmicas** e **experiência do usuário fluida**.
 
 A estrutura foi criada utilizando **Flexbox** e animações CSS combinadas com **JavaScript** para gerenciar interações, efeitos visuais e mudanças de estado de forma elegante.
 
