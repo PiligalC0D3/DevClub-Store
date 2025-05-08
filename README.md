@@ -38,6 +38,6 @@ O site é totalmente adaptável para diferentes dispositivos (mobile, tablet e d
 <img src="img/readme.PNG"></img>
 
 ## 🔗 Links
-<a href="https://vision-prodevclub.netlify.app/">* [Deploy](#)</a><br>
-<a href="https://portifolio-michel.netlify.app/#Projetos">* [Meu Portfólio](#)</a><br>
-<a href="https://www.linkedin.com/in/michel-santos-1b3b1b6a/">* [LinkedIn](#)</a>
+<a href="https://vision-prodevclub.netlify.app/">* [Deploy]</a><br>
+<a href="https://portifolio-michel.netlify.app/#Projetos">* [Meu Portfólio]</a><br>
+<a href="https://www.linkedin.com/in/michel-santos-1b3b1b6a/">* [LinkedIn]</a>
