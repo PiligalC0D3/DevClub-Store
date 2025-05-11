@@ -35,7 +35,7 @@ O site é totalmente adaptável para diferentes dispositivos (mobile, tablet e d
 
 ## 💼 Demonstração
 
-<img src="img/readmeM.PNG"></img>
+<img src="img/readmeM.PNG">
 
 ## 🔗 Links
 <a href="https://vision-prodevclub.netlify.app/">* [Deploy]</a><br>
